@@ -1,0 +1,13 @@
+org/oftx/menu/ConfigUtils.class
+org/oftx/menu/DependenciesChecker.class
+org/oftx/menu/StringUtils.class
+org/oftx/menu/FormInfo.class
+org/oftx/menu/PlayerFormHandler.class
+org/oftx/menu/Menu.class
+org/oftx/menu/Button.class
+org/oftx/menu/FormBuilder.class
+org/oftx/menu/CommandHandler.class
+org/oftx/menu/PlayerUtils.class
+org/oftx/menu/ButtonInfo.class
+org/oftx/menu/EconomyManager.class
+org/oftx/menu/ItemUseEventListener.class

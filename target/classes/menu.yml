@@ -1,0 +1,48 @@
+menu:
+  title: 菜单
+  content: |
+    [金币: <money>    ]§7<date&time>§r
+    [  §7·§r 位于 <resOwner> 的领地: <resName>]
+  buttons:
+    - type: command
+      id: resfuncmenu
+      label: 领地功能
+      command: res
+      runas: player
+      showarrow: true
+      image: textures/ui/icon_recipe_nature
+    - type: command
+      id: chdifficulty
+      label: 修改难度
+      command: chdifficulty
+      runas: player
+      showarrow: true
+      image: textures/ui/controller_glyph_color
+    - type: command
+      id: menureload
+      label: 重载菜单配置
+      command: menu reload
+      runas: console
+      showarrow: false
+    - type: menu
+      id: opfuncmenu
+      title: 管理员功能
+      content: ''
+      showarrow: true
+      image: textures/ui/permissions_op_crown
+      permission: menu.op
+      buttons:
+        - type: command
+          id: chgamerule
+          label: 游戏规则
+          command: chgamerule
+          runas: player
+          showarrow: true
+          image: textures/ui/sign
+          permission: menu.op
+        - type: menu
+          id: otherfuncmenu
+          title: 其他功能
+          content: ''
+          showarrow: true
+          buttons: []
